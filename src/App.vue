@@ -2,7 +2,7 @@
 <script setup>
  import TheHeader from './header.vue' 
  import MarkdownIt from 'markdown-it'
- import raw from '/content/home.md?raw'
+ import raw from '/content/readme.md?raw'
   
  const lel1 = new MarkdownIt().render(raw)
  </script>
@@ -14,7 +14,7 @@
 
     <main>
       <div>  
-        <h1 class="h">WAFFLES</h1>
+        <h1 class="h">Yusuf's Website</h1>
       </div>
 
       <div class="text">
