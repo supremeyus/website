@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Rammetto+One&family=Titan+One&display=swap');
+
+$bg: #000000;
+$txt: #FFFFFF;
+
+
+body, html {
+    margin: 0;
+    background-color: $bg;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.h {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vw;
+    color: $txt;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+    color: $txt;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.md {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    //font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: $txt;
+
+    display: grid;
+    justify-content: center;
+    place-items: center;
+
+    $mrg: 200px;
+    margin-left: $mrg;
+    margin-right: $mrg;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
