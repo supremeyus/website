@@ -1,8 +1,7 @@
-<script setup lang="ts"></script>
-<script setup>
+<script setup lang="ts">
  import TheHeader from './header.vue' 
  import MarkdownIt from 'markdown-it'
- import raw from '/content/readme.md?raw'
+ import raw from '/content/README.md?raw'
   
  const lel1 = new MarkdownIt().render(raw)
  </script>
@@ -21,6 +20,7 @@
         <p>sample text</p>
       </div>
 
+      <!-- @ts-ignore -->
       <div class="md" v-html="lel1" />
 
     </main>
