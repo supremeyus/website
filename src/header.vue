@@ -8,7 +8,7 @@
         <img class="header__img" src="/img/steamhappy.png"></img>
         
         <nav class="header__nav">
-          <a href="/" class="header__logo">home</a>
+          <a href="./App" class="header__logo">home</a>
        </nav>
        <nav class="header__nav">
           <a href="./steamhappy">HAPPY</a>
