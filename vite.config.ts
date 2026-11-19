@@ -19,7 +19,7 @@ export default defineConfig(({ command }) => ({
       input: {
         main: resolve(import.meta.dirname, 'index.html'),
         favs: resolve(import.meta.dirname, 'favs.html'),
-        steamhappy: resolve(import.meta.dirname, 'favs.html'),
+        steamhappy: resolve(import.meta.dirname, 'steamhappy.html'),
       },
     },
   },
