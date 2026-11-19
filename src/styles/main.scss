@@ -2,7 +2,7 @@
 
 $bg: #000000;
 $txt: #FFFFFF;
-
+$accent: #6b17af;
 
 body, html {
     margin: 0;
@@ -25,6 +25,23 @@ body, html {
     display: flex;
     position: relative;
     justify-content: center;
+
+    text-shadow: 0 0 10px $accent, 0 0 10px pink;
+}
+
+.h1 {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    letter-spacing: -5%;
+    color: $txt;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+    text-shadow: 0 0 10px $accent, 0 0 10px pink;
 }
 
 .text {
@@ -35,9 +52,14 @@ body, html {
     font-size: 2vw;
     color: $txt;
 
-    display: flex;
+    //display: flex;
+
+    display: block;
+    text-align: center;
     position: relative;
     justify-content: center;
+    flex-direction: column;
+    
 }
 
 .md {
@@ -62,4 +84,49 @@ body, html {
     justify-content: center;
     width: 100%;
     align-items: center;
+}
+.img-grid {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    align-items: center;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+    grid-template-areas:
+    "img content";
+    gap: 0px;
+    padding: 10px 200px;
+    align-items: stretch;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container div.img {
+  grid-area: img;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container div.content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;            
+  justify-content: center;           
+  align-items: center;
+}
+
+.container div {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container div.content h3,
+.container div.content p {
+  margin: 0 0 10px;
 }

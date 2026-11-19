@@ -6,11 +6,16 @@
       <div class="header__inner">
 
         <img class="header__img" src="/img/steamhappy.png"></img>
-        <a href="/" class="header__logo">bebsite</a>
-  
+        
         <nav class="header__nav">
+          <a href="/" class="header__logo">home</a>
+       </nav>
+       <nav class="header__nav">
           <a href="./steamhappy">HAPPY</a>
+        
+          <a href="./favs">Favorites</a>
         </nav>
+
       </div>
     </header>
   </template>

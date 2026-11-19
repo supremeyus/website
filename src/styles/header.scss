@@ -19,13 +19,14 @@ $accent: #6b17af;
   //border-radius: 15px;
 
   &__inner {
-    //max-width: 1100px;
     margin: 0 auto;
     padding: 0 1rem;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
+    gap: 1rem;
   }
 
   &__logo {
@@ -39,12 +40,13 @@ $accent: #6b17af;
   &__nav {
     display: flex;
     gap: 1.5rem;
-
+    text-shadow: 0 0 10px $accent, 0 0 10px pink;
     a {
       color: $text;
       text-decoration: none;
-
+      
       &:hover {
+        
         color: $accent;
       }
     }
